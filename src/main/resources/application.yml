@@ -1,0 +1,18 @@
+redis:
+  host: localhost
+  port: 6379
+
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@10.22.7.63:1521/GTGTTEST
+    username: mms
+    password: mms
+    driverClassName: oracle.jdbc.OracleDriver
+    hikari:
+      minimumIdle: 5
+      maximumPoolSize: 29
+      idleTimeout: 30000
+      maxLifetime: 2000000
+      connectionTimeout: 30000
+      poolName: oracle.jdbc.pool.OracleDataSource
