@@ -44,7 +44,6 @@
             <scope>test</scope>
         </dependency>
 
-
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -64,10 +63,17 @@
             <version>6.0.1.RELEASE</version>
         </dependency>
 
+<!--        oracle template jdbc custom -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>4.3.1.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.uu.ordblib</groupId>
+            <artifactId>dajdbc</artifactId>
+            <version>1.0</version>
         </dependency>
 
     </dependencies>
